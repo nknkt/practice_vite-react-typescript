@@ -1,0 +1,12 @@
+.u-inner {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    @media (--pc) {
+        max-width: 1200px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}

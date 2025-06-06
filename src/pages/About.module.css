@@ -1,0 +1,7 @@
+.buttonMargin {
+  margin-top: 30px;
+
+  @media (--pc) {
+    margin-top: 60px;
+  }
+}

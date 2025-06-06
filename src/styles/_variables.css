@@ -1,0 +1,26 @@
+@custom-media --pc (min-width: 768px);
+@custom-media --sp (max-width: 767px);
+
+:root {
+  --color-font-base: #444;
+  --color-bg-main: #f4f4f4;
+  --color-gray: #999;
+  --color-black: #141020;
+
+  --gradient-black-black: linear-gradient(
+  0deg,
+  rgba(20, 32, 36, 1) 0%,
+  rgba(39, 55, 62, 1) 100%
+  );
+
+  --select: #fff176;
+
+  --weight-base: 500;
+  --weight-light: 300;
+  --weight-bold: 700;
+
+  --font-source: 'Source Sans Pro', sans-serif;
+
+  --transition-basic: 0.5s cubic-bezier(0, 0.55, 0.45, 1);
+
+}
